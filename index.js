@@ -21,3 +21,28 @@ function getDogPhoto() {
     console.log('App loaded! Waiting for submit!');
     watchSubmit();
   });
+
+
+
+
+
+
+
+  /*function displayImages(responceJson) {
+    console.log(responceJson);
+      if(responceJson.status='sucess') {
+      $('.results').append(`<img src="${responceJson.message}">`);
+      } else {
+          alert('Breed not found')
+      }*/
+
+      /*function displayImages(responceJson) {
+        console.log(responceJson);
+          if(responceJson.status='sucess') {
+          $('.results').append(`<img src="${responceJson.message}">`);
+          } else {
+              $('.results').append(`<p>${responceJson.message}</p>`)
+          }*/
+
+          // these are a few things I tried to get an alert to pop when the 
+          // breed isnt found. 
