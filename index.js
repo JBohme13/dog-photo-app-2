@@ -8,6 +8,7 @@ function getDogPhoto() {
   function displayImages(responceJson) {
       let jsonStatus = responceJson.status;
       if(jsonStatus === 'success') {
+        $('.results').empty();
         $('.results').append(`<img src="${responceJson.message}" alt="dog photo">`);
       }
       else if(jsonStatus === 'error') {
